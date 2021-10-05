@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        function PoleIObwod_Sta() {
+            var a = prompt("Podaj długość boku a", "");
+            var b = prompt("Podaj długość boku b", "");
+            document.write("Wprowadzone dane : " + a + " oraz " + b + " <br> ")
+
+            suma = Math.abs(a * b);
+            document.write("<br> Wyniki : <br> Pole prostokąta: " + suma + "");
+            suma1 = Math.abs(2 * a);
+            suma2 = Math.abs(2 * b);
+            suma3 = Math.abs(suma1 + suma2);
+            document.write("<br> Obwód Prostokąta: " + suma3 + "");
+        }
+    </script>
+
+    <h1>Pole i Obwód prostokąta</h1>
+
+    <input type="button" name="Oblicz" value="Oblicz" Onclick="PoleIObwod_Sta()">
+<br> <br> <br>
+    <img src="giphy.gif" alt="Nie działa">
+
+
+
+</body>
+
+</html>
